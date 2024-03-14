@@ -1,0 +1,56 @@
+/* ProductList.css */
+
+.product-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .product-list h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f4068; /* Dark blue color for the heading */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray border color */
+  }
+  
+  table th {
+    background-color: #f0f0f0; /* Light gray background for header */
+    color: #333;
+    text-align: left;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f5f5f5; /* Lighter gray background on hover */
+  }
+  
+  table tbody tr td:last-child {
+    text-align: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
